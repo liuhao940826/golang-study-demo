@@ -1,29 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999503e8-3723-4c49-8857-1511a1a83605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/GOMAXPROCS.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/GoExist.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/anonymous_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/anonymous_variable.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/assignment.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/callback_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/declare_variable.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/defer2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/get_pointer_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/modify_pointer_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/pointer_scan.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/runtimeGosched.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/typeSturct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/typefunc.go" afterDir="false" />
+    <list default="true" id="999503e8-3723-4c49-8857-1511a1a83605" name="Default Changelist" comment="exe">
+      <change afterPath="$PROJECT_DIR$/main/append.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/append2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/array1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/array2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/array3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/array4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/array5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/array6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/copy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/doubleArray1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/map1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/map2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/map3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/map4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/map5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/random.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/slice2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/slice3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/slice4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/slice5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/slice6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/struct1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/struct2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/struct3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/struct4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/struct5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/struct6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/printf.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.idea/golangProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main/.idea/golangProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/GOMAXPROCS.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/GOMAXPROCS.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/GoExist.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/GoExist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/anonymous_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/anonymous_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/anonymous_variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/anonymous_variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/assignment.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/assignment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/callback_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/callback_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/declare_variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/declare_variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/defer2.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/defer2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/get_pointer_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/get_pointer_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/goroutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/goroutine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/modify_pointer_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/modify_pointer_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pointer_scan.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/pointer_scan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/runtimeGosched.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/runtimeGosched.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/typeSturct.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/typeSturct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/typefunc.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/typefunc.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../pkg/mod/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,97 +68,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/declare_variable.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/get_pointer_value.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/pointer.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/goroutine.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/defer.go">
+        <entry file="file://$PROJECT_DIR$/main/map4.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="9" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#28#0" expanded="true" />
-              </folding>
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/map5.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/struct1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/struct2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/struct3.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/struct4.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/struct5.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/defer2.go">
+        <entry file="file://$PROJECT_DIR$/main/struct6.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="199">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/runtimeGosched.go">
+        <entry file="file://$PROJECT_DIR$/main/slice2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/GoExist.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/GOMAXPROCS.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/go/src/builtin/builtin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="246" column="33" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
+            <state relative-caret-position="90">
+              <caret line="140" column="26" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -151,6 +169,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>defer</find>
+      <find>append</find>
+      <find>make</find>
+      <find>new</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -164,7 +185,6 @@
         <option value="$PROJECT_DIR$/main/modify_pointer_value.go" />
         <option value="$PROJECT_DIR$/main/pointer_scan.go" />
         <option value="$PROJECT_DIR$/main/get_pointer_value.go" />
-        <option value="$PROJECT_DIR$/main/pointer.go" />
         <option value="$PROJECT_DIR$/main/goroutine.go" />
         <option value="$PROJECT_DIR$/main/runtimeGosched.go" />
         <option value="$PROJECT_DIR$/main/GoExist.go" />
@@ -172,6 +192,39 @@
         <option value="$PROJECT_DIR$/main/GOMAXPROCS.go" />
         <option value="$PROJECT_DIR$/main/defer.go" />
         <option value="$PROJECT_DIR$/main/defer2.go" />
+        <option value="$PROJECT_DIR$/testGoMod/main/firstGoMod.go" />
+        <option value="$PROJECT_DIR$/github.com/liuhao940826/hello/hello.go" />
+        <option value="$PROJECT_DIR$/main/pointer.go" />
+        <option value="$PROJECT_DIR$/main/array.go" />
+        <option value="$PROJECT_DIR$/main/array1.go" />
+        <option value="$PROJECT_DIR$/main/array2.go" />
+        <option value="$PROJECT_DIR$/main/array3.go" />
+        <option value="$PROJECT_DIR$/main/doubleArray1.go" />
+        <option value="$PROJECT_DIR$/main/array4.go" />
+        <option value="$PROJECT_DIR$/main/random.go" />
+        <option value="$PROJECT_DIR$/main/array5.go" />
+        <option value="$PROJECT_DIR$/main/array6.go" />
+        <option value="$PROJECT_DIR$/main/slice.go" />
+        <option value="$PROJECT_DIR$/main/slice2.go" />
+        <option value="$PROJECT_DIR$/main/slice4.go" />
+        <option value="$PROJECT_DIR$/main/slice5.go" />
+        <option value="$PROJECT_DIR$/main/append.go" />
+        <option value="$PROJECT_DIR$/main/slice3.go" />
+        <option value="$PROJECT_DIR$/main/append2.go" />
+        <option value="$PROJECT_DIR$/main/copy.go" />
+        <option value="$PROJECT_DIR$/main/slice6.go" />
+        <option value="$PROJECT_DIR$/main/map.go" />
+        <option value="$PROJECT_DIR$/main/map1.go" />
+        <option value="$PROJECT_DIR$/main/map3.go" />
+        <option value="$PROJECT_DIR$/main/map2.go" />
+        <option value="$PROJECT_DIR$/main/map4.go" />
+        <option value="$PROJECT_DIR$/main/map5.go" />
+        <option value="$PROJECT_DIR$/main/struct1.go" />
+        <option value="$PROJECT_DIR$/main/struct2.go" />
+        <option value="$PROJECT_DIR$/main/struct3.go" />
+        <option value="$PROJECT_DIR$/main/struct4.go" />
+        <option value="$PROJECT_DIR$/main/struct5.go" />
+        <option value="$PROJECT_DIR$/main/struct6.go" />
       </list>
     </option>
   </component>
@@ -186,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,10 +277,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -240,7 +294,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -259,54 +313,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build runtimeGosched.go">
-    <configuration name="go build GoExist.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build struct6.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/GoExist.go" />
+      <filePath value="$PROJECT_DIR$/" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defer2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/defer2.go" />
+      <filePath value="$PROJECT_DIR$/main/struct2.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/defer.go" />
+      <filePath value="$PROJECT_DIR$/main/struct3.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/pointer.go" />
+      <filePath value="$PROJECT_DIR$/main/struct4.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build runtimeGosched.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct5.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/runtimeGosched.go" />
+      <filePath value="$PROJECT_DIR$/main/struct5.go" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build struct6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/struct6.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build runtimeGosched.go" />
-        <item itemvalue="Go Build.go build defer2.go" />
-        <item itemvalue="Go Build.go build defer.go" />
-        <item itemvalue="Go Build.go build GoExist.go" />
-        <item itemvalue="Go Build.go build pointer.go" />
+        <item itemvalue="Go Build.go build struct6.go" />
+        <item itemvalue="Go Build.go build struct5.go" />
+        <item itemvalue="Go Build.go build struct4.go" />
+        <item itemvalue="Go Build.go build struct3.go" />
+        <item itemvalue="Go Build.go build struct2.go" />
       </list>
     </recent_temporary>
   </component>
@@ -320,32 +393,60 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="941" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="938" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292978" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39854193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932693" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" weight="0.3292978" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" weight="0.3304982" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.3292978" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39854193" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932693" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" weight="0.3304982" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.3292978" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/github.com/liuhao940826/golang-study-demo" />
+    </ignored-roots>
+    <MESSAGE value="exe" />
+    <option name="LAST_COMMIT_MESSAGE" value="exe" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -372,9 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/typefunc.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/typeSturct.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -399,38 +497,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/declare_variable.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/get_pointer_value.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/pointer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="246" column="33" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/defer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="9" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>
@@ -439,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/GoExist.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="123">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
@@ -449,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/GOMAXPROCS.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="153">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
@@ -459,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/goroutine.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="116">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
@@ -480,7 +557,275 @@
     <entry file="file://$PROJECT_DIR$/main/defer2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/declare_variable.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGoMod/main/firstGoMod.go" />
+    <entry file="file://$PROJECT_DIR$/github.com/liuhao940826/hello/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/pointer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/doubleArray1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/array3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/array4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/random.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="e#14#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/array5.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/array6.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/array1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="2" selection-end-line="19" />
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/typefunc.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/array2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/slice5.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/slice.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="2" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/slice3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/slice4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/append.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="e#13#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/copy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/slice6.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/append2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/map1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/map3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/map2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="140" column="26" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/map4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/map5.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/slice2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/struct2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/struct3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/struct4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/struct1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/struct5.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/struct6.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
