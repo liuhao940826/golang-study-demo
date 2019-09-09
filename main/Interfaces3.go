@@ -28,13 +28,17 @@ func (tmp *Student12) SayBye(bye string) {
 
 func main() {
 	//接口的继承
-	var i Humaner3
+	//var i Humaner3
+	//
+	//s := &Student12{"liuhao", 6}
+	//
+	//i = s
+	//
+	//i.SayHi()
+	//i.SayBye("you")
 
-	s := &Student12{"liuhao", 6}
+	var name = (4 << (^uint(0) >> 63))
 
-	i = s
-
-	i.SayHi()
-	i.SayBye("you")
+	fmt.Println(name)
 
 }

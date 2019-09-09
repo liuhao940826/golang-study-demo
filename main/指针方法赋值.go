@@ -23,7 +23,7 @@ func main() {
 	//
 	//fmt.Println("后面的currentUserId= ,orgId",currentUserId ,orgId)
 
-	var zero int64 = 0
+	var zero int64 = 666
 
 	s := "asd"
 	var n int64 = 1
@@ -35,9 +35,9 @@ func main() {
 		ProjectTypeID: &n,
 	}
 	fmt.Printf("地址 %T ", &input)
-	fmt.Println("前一次 ", input, *input.Code, *input.PreCode, *input.PriorityID, *input.ProjectTypeID)
+	fmt.Println("前一次  ", *input.Code, *input.PreCode, *input.PriorityID, *input.ProjectTypeID)
 
-	blankString := ""
+	blankString := "hahah"
 
 	assgin(zero, &input, blankString)
 
@@ -47,6 +47,9 @@ func main() {
 
 //后去地址的值  值  值=>值
 func assgin(zero int64, input *CreateProjectReq, blankString string) {
+
+	fmt.Println("Code", input.Code)
+
 	*input.Code = blankString
 	*input.PreCode = blankString
 	*input.PriorityID = zero

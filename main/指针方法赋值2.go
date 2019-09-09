@@ -10,16 +10,19 @@ type ponit2 struct {
 	name *string
 }
 
-func testPonit2(entity *ponit2) {
+type ponit3 struct {
+	id   int64
+	name string
+}
 
-	oint64 := int64(2)
+type ponit4 struct {
+	id   []int64
+	name string
+}
 
-	name := "nibaba"
-
-	entity.id = &oint64
-
-	entity.name = &name
-
+type ponit5 struct {
+	id   int64
+	name string
 }
 
 //数组长度在定义后无法再次修改 数组是值类型 每次传递产生一个副本  用slice来弥补不足
@@ -34,8 +37,76 @@ func main() {
 		name: &name,
 	}
 
+	fmt.Printf("entity2 id= %d name=%v \n ", *entity.id, *entity.name)
 	testPonit2(entity)
 
-	fmt.Printf("id= %d name=%v ", *entity.id, *entity.name)
+	fmt.Printf("entity2 id= %d name=%v \n ", *entity.id, *entity.name)
+
+	entity3 := &ponit3{
+		id:   666,
+		name: "hahah",
+	}
+
+	fmt.Printf("entity3 id= %d name=%v \n ", entity3.id, entity3.name)
+
+	testPonit3(entity3)
+
+	fmt.Printf("entity3 id= %d name=%v \n ", entity3.id, entity3.name)
+
+	entity5 := &ponit5{
+		id:   666,
+		name: "hahah",
+	}
+
+	fmt.Printf("entity5 id= %d name=%v \n ", entity5.id, entity5.name)
+
+	testPonit5(entity5)
+
+	fmt.Printf("entity5 id= %d name=%v \n ", entity5.id, entity5.name)
+
+	testPonit5_2(entity5)
+
+	fmt.Printf("entity5_2 id= %d name=%v \n ", entity5.id, entity5.name)
+
+}
+
+func testPonit3(entity *ponit3) {
+
+	entity.id = int64(11)
+
+	entity.name = "nimama"
+
+}
+
+func testPonit2(entity *ponit2) {
+
+	oint64 := int64(2)
+
+	name := "nibaba"
+
+	entity.id = &oint64
+
+	entity.name = &name
+
+}
+
+//指针变量.id和   (*指针变量).id一样的
+func testPonit5(entity *ponit5) {
+
+	entity.id = int64(11)
+
+	entity.name = "dsadsa"
+
+}
+
+func testPonit5_2(entity *ponit5) {
+
+	(*entity).id = int64(111111)
+
+	(*entity).id = int64(1111)
+
+	(*entity).name = "qweqwe"
+
+	var a int = 10
 
 }
