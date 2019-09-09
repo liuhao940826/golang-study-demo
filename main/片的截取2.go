@@ -10,15 +10,16 @@ func main() {
 	//切片和底层数组的关系
 	a := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	//截取 [loww,high,max] 取下标从low开始的元素 长度 =high-low  cap =max-low
-	//新切片
+
+	//新切片 片是指针指向 所以片改了元数据内容也更改了
 	s1 := a[2:5]
 	s1[1] = 666
-	fmt.Printf("s1= \n", s1)
-	fmt.Printf("a= \n", a)
+	fmt.Println("s1= ", s1)
+	fmt.Println("a= ", a)
 
-	//另一个新切片
+	//另一个新切片 从s1的2开始截取 在原来数组基础上去截取
 	s2 := s1[2:7]
 	s2[2] = 777
-	fmt.Printf("s2= \n", s2)
-	fmt.Printf("a= \n", a)
+	fmt.Println("s2= ", s2)
+	fmt.Println("a= ", a)
 }

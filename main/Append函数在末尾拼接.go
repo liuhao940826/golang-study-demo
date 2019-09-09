@@ -12,9 +12,9 @@ func main() {
 	fmt.Printf("len=%d,cap=%d \n", len(array), cap(array))
 	//slice 切片 []里面为空 或者为... 切片的长度或容量可以不固定
 	s := []int{}
-	fmt.Printf("len=%d,cap=%d \n", len(s), cap(s), s)
+	fmt.Printf("len=%d,cap=%d s=%+v\n \n", len(s), cap(s), s)
 
 	s = append(s, 11) //给切片末尾追加一个成员
-	fmt.Printf("len=%d,cap=%d \n", len(s), cap(s), s)
+	fmt.Printf("len=%d,cap=%d slice=%+v\n", len(s), cap(s), s)
 
 }

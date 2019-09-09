@@ -13,7 +13,7 @@ type Student1 struct {
 //结构体指针变量初始化
 func main() {
 
-	//顺序初始化
+	//顺序初始化 指针变量
 	var p1 *Student1 = &Student1{1, "s1", 'm', 18, "sh"}
 	fmt.Println("*p1", *p1)
 

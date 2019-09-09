@@ -18,7 +18,6 @@ type Teacher3 struct {
 
 }
 
-//数组长度在定义后无法再次修改 数组是值类型 每次传递产生一个副本  用slice来弥补不足
 func main() {
 
 	//推导

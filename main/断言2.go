@@ -13,9 +13,12 @@ func main() {
 
 	//创建一个切片
 	i := make([]interface{}, 3)
+
+	fmt.Printf("当前这个片的长度 %d 内容 %+v \n", len(i), i)
+
 	i[0] = 1
 	i[1] = "hellow go"
-	i[2] = Type1{"liuhao", 666}
+	i[2] = Type2{"liuhao", 666}
 
 	//类型断言
 	//第一个返回值是下标 第二个返回值是对应的值

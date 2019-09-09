@@ -13,8 +13,8 @@ func main() {
 	//切片的创建方式  自动推导  make函数(类型 ,长度,容量)
 
 	//自动推导类型,同时初始化
-	s1 := []int{1, 2, 3, 4}
-	fmt.Println(s1)
+	//s1 := []int{1, 2, 3, 4}
+	//fmt.Println(s1)
 
 	//借助make , 格式make(切片类型, 长度,cap)
 	s2 := make([]int, 5, 10)
