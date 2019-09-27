@@ -19,5 +19,4 @@ func main() {
 	fmt.Println("t,name=", t.Name())
 	fmt.Println("t,kind=", t.Kind())
 
-	fmt.Println("t,kind=", t.Kind())
 }

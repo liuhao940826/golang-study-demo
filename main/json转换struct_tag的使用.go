@@ -22,6 +22,9 @@ func main() {
 		fmt.Println("err", err)
 		return
 	}
+	//返回的是编码
+	fmt.Println("buf", buf)
+	//变成json
 	fmt.Println("buf", string(buf))
 
 }
