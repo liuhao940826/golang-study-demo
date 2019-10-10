@@ -10,9 +10,10 @@ func main() {
 
 	//双向的隐式转向 单项channel
 	var writeCh chan<- int = ch //只能写不能读
-	var readCh <-chan int = ch  //只能写不能读
 
 	writeCh <- 666 //写
+
+	var readCh <-chan int = ch //只能读不能写
 
 	<-readCh //读
 

@@ -1,0 +1,44 @@
+Server:
+  Port: 8181
+  Name: Nico
+Mysql:
+  Host: 192.168.1.148
+  Port: 3306
+  Usr: root
+  Pwd: mysqldev
+  Database: polaris_project_manage
+Redis:
+  Host: 192.168.1.148
+  Port: 6379
+  Pwd:
+  Database: 1
+Mail:
+  Usr: 473048656@qq.com
+  Pwd: omjurrhommimbiab
+  Host: smtp.qq.com
+  Port: 465
+DingTalk:
+  SuiteKey: suitewhchsfpyppyswcwf
+  SuiteSecret: MX9esveXjcq4AONz4aLyO9bMBQX5zHf10NgO1x67Q0VP-QfMm0IXRHS6rGlFU4eE
+  Token: n47uypywic970dd13fh1egethelsqr8n5sp3tu4t0zu
+  AesKey: 4qdvk752c58z879s9d97trtvddpodp3pf8uosnd44p7
+  AppId: 24086
+Application:
+  # 运行模式，1：Saas集群，2：单机部署，3：私有化集群部署
+  RunMode: 1
+  CacheMode: Redis
+Logs:
+  Default:
+    LogPath: ./run.log
+    Level: info
+    IsConsoleOut: true
+  RR:
+    LogPath: ./rr.log
+    Level: info
+    IsConsoleOut: false
+Parameters:
+  CodeConnector: '#'
+  IdBufferThreshold: 0.6
+  MaxPageSize: 100
+
+
