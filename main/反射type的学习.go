@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-type reflectType struct {
+type selfType struct {
 	name string
 	id   int
 }
@@ -88,17 +88,18 @@ type Type interface {
 
 func main() {
 
-	r := reflectType{name: "alan", id: 1}
+	r := selfType{name: "alan", id: 1}
 	//类型Type 类似于java 的classes
 	t := reflect.TypeOf(r)
-	//返回接口的名字
+	//Name返回该类型在自身包内的类型名
 	fmt.Println("t,name=", t.Name())
 	//返回接口的类型 struct 是个结构体
 	fmt.Println("t,kind=", t.Kind())
-	//类型在反射保重有定义
+	//Kind返回该接口的具体分类 是否是结构体
 	fmt.Println("是否相等", t.Kind() == reflect.Struct)
 	//返回类型的包路径 这里都在main包里面因为最上面是
-	//main
+	//PkgPath返回类型的包路径，即明确指定包的import路径，如"encoding/base64"
+	//如果类型为内建类型(string, error)或未命名类型(*T, struct{}, []int)，会返回""
 	fmt.Println("返回类型的包路径", t.PkgPath())
 	//main.reflectType
 	fmt.Println("返回类型的字符串", t.String())
