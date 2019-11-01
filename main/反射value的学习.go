@@ -10,6 +10,9 @@ type reflectUserType struct {
 	id   int
 }
 
+type selfInterface interface {
+}
+
 func main() {
 
 	r := reflectUserType{name: "alan", id: 1}
@@ -21,5 +24,6 @@ func main() {
 	fmt.Println("value 的kind", v.Kind())
 
 	fmt.Println("value 的type", v.Type())
-
+	//不是interface 类型的会报错的
+	//fmt.Println("value 的elem",v.Elem())
 }
