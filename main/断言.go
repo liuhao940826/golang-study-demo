@@ -29,7 +29,6 @@ func main() {
 		} else if value, ok := data.(Type1); ok == true {
 			fmt.Printf("x[%d], 类型string 值为%v \n   ", index, value)
 		}
-
 	}
 
 }

@@ -14,21 +14,37 @@ type JsonMap struct {
 
 func main() {
 
-	m := make(map[string]interface{})
-
-	m["company"] = "新型公司"
-	m["age"] = 1
-	m["member"] = []string{"me", "you", "anyone"}
+	str := []string{"me", "you", "anyone"}
 	//格式化 空字符变成了Tab键
-	result, err := json.MarshalIndent(m, "", "	")
+	result, err := json.MarshalIndent(str, "", "	")
 
 	if err != nil {
 		fmt.Println("err", err)
 		return
 	}
 
-	fmt.Println("result", string(result))
+	sliceStr := appendJSONSliceStr("新来的", string(result))
+	str22 := appendJSONSliceStr("新来的Str", "我也是新来的")
 
-	fmt.Println("result", string(result))
+	fmt.Println("新的sliceStr", sliceStr)
+	fmt.Println("str22", str22)
+}
 
+func appendJSONSliceStr(str, jsonStr string) string {
+
+	//只能判断已经有值了判断不了是slice还是string
+	traceIds := &[]string{}
+	//解析判断是否是数组
+	err := json.Unmarshal([]byte(jsonStr), traceIds)
+	if err == nil {
+		//解析成功 原本已经是数组了,拼到后面去然后在抓json
+		*traceIds = append(*traceIds, str)
+		newTraceIds, _ := json.MarshalIndent(traceIds, "", "	")
+		return string(newTraceIds)
+	}
+
+	//解析不成功,走到这边说明原本是个string 拼到数组里面去
+	*traceIds = append(*traceIds, str, jsonStr)
+	newTraceIds, _ := json.MarshalIndent(traceIds, "", "	")
+	return string(newTraceIds)
 }

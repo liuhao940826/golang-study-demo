@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-type JsonTag struct {
+type JsonSlice struct {
 	Company string `json:"company"` //转出来的时候取的名字
 	Name    string `json:"name"`
 	Age     int    `json:"-"`              //表示不进行序列化
@@ -14,17 +14,25 @@ type JsonTag struct {
 
 func main() {
 
-	jsonObj := JsonTag{"哈哈哈", "liuhao", 25, true}
-
-	buf, err := json.Marshal(jsonObj)
+	strings := []string{"me", "you", "anyone"}
+	//格式化 空字符变成了Tab键
+	result, err := json.MarshalIndent(strings, "", "	")
 
 	if err != nil {
 		fmt.Println("err", err)
 		return
 	}
-	//返回的是编码
-	fmt.Println("buf", buf)
-	//变成json
-	fmt.Println("buf string", string(buf))
+
+	fmt.Println("result", string(result))
+
+	result2 := &[]string{}
+	err := json.Unmarshal([]byte(result), result2)
+
+	if err != nil {
+		fmt.Println("err", err)
+		return
+	}
+
+	fmt.Println("result2的内容", result2)
 
 }

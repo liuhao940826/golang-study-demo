@@ -16,7 +16,7 @@ type selfInterface interface {
 func main() {
 
 	r := reflectUserType{name: "alan", id: 1}
-	//类型Type 类似于java 的classes
+
 	v := reflect.ValueOf(r)
 	//结果直接是 alan 1 这个结构题里面所有的值
 	fmt.Println("valueOf 返回的内容", v)
