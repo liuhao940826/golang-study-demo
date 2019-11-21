@@ -27,21 +27,33 @@ func main() {
 	//获取当天的23:59:00
 	currentTime := time.Now()
 
-	fmt.Println("当前时间", currentTime)
+	//fmt.Println("当前时间", currentTime)
+	//
+	//dailyEndTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 23, 59, 0, 0, currentTime.Location())
+	//
+	////获取扫描区间
+	//secondInterval := 1800
+	//
+	////获取每日23:59减少区间后的时间
+	//subConverTime := AssemblyDateTime(secondInterval, dailyEndTime, Minus, IntervalSecondUnit)
+	//
+	//fmt.Println("每日倒计时减少后的时间", subConverTime)
+	//
+	//convertTime := AssemblyDateTime(secondInterval, currentTime, Plus, IntervalSecondUnit)
+	//
+	//fmt.Println("增加后的时间", convertTime)
 
-	dailyEndTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 23, 59, 0, 0, currentTime.Location())
+	dateTime := AssemblyDateTime(0, currentTime, Minus, IntervalSecondUnit)
 
-	//获取扫描区间
-	secondInterval := 1800
+	fmt.Println("dateTime:", dateTime)
 
-	//获取每日23:59减少区间后的时间
-	subConverTime := AssemblyDateTime(secondInterval, dailyEndTime, Minus, IntervalSecondUnit)
+	parse, _ := time.Parse(AppTimeNotSecondeFormat, "2019-11-21 00:04")
 
-	fmt.Println("每日倒计时减少后的时间", subConverTime)
+	convertMinusTime := AssemblyDateTime(10, parse, Minus, IntervalMinuteUnit)
+	//获取当前时间小时+分钟
+	fmt.Println("不够减的区间时间", convertMinusTime)
 
-	convertTime := AssemblyDateTime(secondInterval, currentTime, Plus, IntervalSecondUnit)
-
-	fmt.Println("增加后的时间", convertTime)
+	fmt.Println("测试空串大小", "" > "0")
 
 }
 

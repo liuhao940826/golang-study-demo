@@ -6,15 +6,18 @@ import (
 )
 
 type JsonTag struct {
-	Company string `json:"company"` //转出来的时候取的名字
-	Name    string `json:"name"`
-	Age     int    `json:"-"`              //表示不进行序列化
-	IsOk    bool   `json:"isReady,string"` // ,string表示序列化时候指定类型
+	Company string   `json:"company"` //转出来的时候取的名字
+	Name    string   `json:"name"`
+	Age     int      `json:"-"`              //表示不进行序列化
+	IsOk    bool     `json:"isReady,string"` // ,string表示序列化时候指定类型
+	Str     []string `json:"str"`            // ,string表示序列化时候指定类型
 }
 
 func main() {
 
-	jsonObj := JsonTag{"哈哈哈", "liuhao", 25, true}
+	str := []string{"one", "two", "three"}
+
+	jsonObj := JsonTag{"哈哈哈", "liuhao", 25, true, str}
 
 	buf, err := json.Marshal(jsonObj)
 
